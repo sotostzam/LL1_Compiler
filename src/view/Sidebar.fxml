@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="rootPane" prefHeight="720" prefWidth="1280" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SidebarController">
+	<left>
+		<VBox prefWidth="300.0" style="-fx-background-color: #1D2026; -fx-padding: 0 0 10px 0;" stylesheets="view/Sidebar.css">
+			<VBox VBox.vgrow="ALWAYS" style="-fx-padding: 0 10 0 10;">
+				<Label text="Categories" prefHeight="100.0" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER"/>
+		    	<Button fx:id="btnHome" text="%btn_home" onMousePressed="#showHomeUI" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+		    	<Button fx:id="btnConvertRules" text="Convert Rules" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+		    	<Button fx:id="btnImportRules" text="%btn_rules" onMousePressed="#showImportRulesUI" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+		    	<Button fx:id="btnLexicalAnalysis" text="Lexical Analysis" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+		   		<Button fx:id="btnSyntaxAnalysis" text="%btn_syntaxAnalysis" onMousePressed="#showSyntaxAnalysisUI" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+				<Button fx:id="btnIntCode" text="%btn_intCode" onMousePressed="#showIntermediateCodeUI" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+			</VBox>
+			<VBox style="-fx-padding: 0 10 0 10;">
+				<Button fx:id="btnOptions" onMousePressed="#showOptionsUI" text="%btn_options" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+		    	<Button fx:id="btnAbout" onMousePressed="#showAboutUI" text="%btn_about" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+		    	<Button fx:id="btnExit" onMousePressed="#exit" text="%btn_exit" HBox.hgrow="ALWAYS" maxWidth="Infinity" alignment="CENTER_LEFT"/>
+			</VBox>
+		</VBox>
+	</left>
+	<center>
+		<fx:include source="/view/Homepage.fxml"/>
+	</center>
+</BorderPane>
+

@@ -54,7 +54,8 @@ public class Compiler{
 	  
 	public static void main(String[] args) {
 		bootConfig();
-		Graphics.startGraphics(args);
+		//Graphics.startGraphics(args);
+		GraphicsFXML.startGraphics(args);
         //System.out.println(javafx.scene.text.Font.getFamilies());
 		//System.out.println(com.sun.javafx.runtime.VersionInfo.getRuntimeVersion());
 	}

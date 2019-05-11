@@ -1,0 +1,24 @@
+.label {
+	-fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+}
+
+#syntaxPane {
+	-fx-background-image: url("/images/homeBackground.png");
+	-fx-background-repeat: stretch;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+
+#lb_SyntaxTitle {
+	-fx-font-size: 40px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+
+#lb_SyntaxInfoTitle, #lb_SyntaxOptions {
+	-fx-font-size: 30px;
+	-fx-font-style: italic;
+	-fx-underline: true;
+	-fx-padding: 0 0 10 0;
+}
