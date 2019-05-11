@@ -75,7 +75,7 @@ In order to deploy a runnable .jar file follow these steps:
 
 ## Contributing
 
-As an open source software, we would be grateful if you wish to contribute bugfixes and improvements. Read our [CONTRIBUTING.md](CONTRIBUTING.md) to learn about how to report issues and how to propose bugfixes and improvements.
+As an open source software, we would be grateful if you wish to contribute bugfixes and improvements. Read our [CONTRIBUTING](CONTRIBUTING.md) to learn about how to report issues and how to propose bugfixes and improvements.
 
 A special thanks to all of our contributors and testers so far:
 
@@ -87,7 +87,7 @@ The idea of this application was founded within the framework of the course name
 
 ## License
 
-This project is licensed under the GNU General Public Version 3 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public Version 3 License - see the [LICENSE](LICENSE.md) file for details
 
 [java]: https://www.java.com/en/download/
 [efxclipse]: https://www.eclipse.org/efxclipse/install.html
