@@ -1,0 +1,103 @@
+##########Language=English##########
+@Version: Beta 0.5.2 @Date: 11.05.2019
+• Copyright text has been modified for the upcoming open source distribution
+• Image and icon clean-up
+• Removed unnecessary code used for old debugging
+
+@Version: Beta 0.5.1 @Date: 28.12.2017
+• Fixed import and export not finding pathnames
+• Fixed file encoding of exporting grammar
+• Fixed pre-installed grammars not showing 'ε' symbol
+• Fixed Greek language not showing properly
+• Fixed and enabled language selection.
+• Fixed a bug with alerts not showing properly
+• Fixed a bug where string analysis panel would not reset correctly when inserting new grammar rules
+
+@Version: Beta 0.5.0 @Date: 20.12.2017
+• Major GUI overhaul
+• Added Hover over buttons to see explanations
+• Improved changelog readability
+• Console window now shows errors and logs
+
+@Version: Alpha 0.4.1 @Date: 18.12.2017
+• Fixed the automatic steps by timer
+• Timer now has a range of 0.1-5 seconds and refuses any other input
+
+@Version: Alpha 0.4.0 @Date: 16.12.2017
+• Added proper instructions, both English and Greek
+• Added console window
+• Added button to immediately show result in string analysis
+
+@Version: Alpha 0.3.1 @Date: 12.12.2017
+• Improved speed of the algorithms
+• Improved graphics of the program
+• Improved steps readability for first sets
+• Options and About panel now work as intended
+
+@Version: Alpha 0.3.0 @Date: 10.12.2017
+• Added changelog into the About panel
+• Home panel now include an overview and instructions
+
+@Version: Alpha 0.2.0 @Date: 04.12.2017
+• Added panels for ease of use
+• Added internal Grammars
+• Added the ability to import and export your own grammar rules
+• Added steps for first and follow sets
+• You now have the ability to see first, follow and the parsing table at a single panel
+
+@Version: Alpha 0.1.0 @Date: 28.11.2017
+• Created Graphical User Interface
+• First Release of the program
+##########English-END##########
+
+##########Language=Greek##########
+@Version: Beta 0.5.2 @Date: 11.05.2019
+• Το κείμενο των πνευματικών δικαιωμάτων έχει τροποποιηθεί για την επερχόμενη διανομή ανοιχτού κώδικα
+• Καθαρισμός εικόνων και εικονιδίων
+• Αφαιρέθηκε περιττός κώδικας για παλιά αποσφαλμάτωση
+
+@Έκδοση: Beta 0.5.1 @Date: 28.12.2017
+• Επιδιόρθωση της δυνατότητας εισαγωγής και εξαγωγής που δεν έβρισκαν τις κατάλληλες διαδρομές
+• Επιδιόρθωση της κωδικοποίησης του αρχείου μετά την εξαγωγή
+• Επιδιόρθωση προ-εγκατεστημένων γραμματικών που δεν εμφάνιζαν το σύμβολο 'ε'
+• Επιδιόρθωση εμφάνισης της ελληνικής γλώσσας
+• Επιδιόρθωση και ενεργοποίηση εναλλαγής γλώσσας
+• Επιδιόρθωση ενός σφάλματος των ειδοποιήσεων να μην εμφανίζονται σωστά
+• Επιδιόρθωση ενός σφάλματος όπου η καρτέλα Ανάλυση Εισόδου δεν έκανε επαναφορά μετά από την εισαγωγή καινούριας γραμματικής
+
+@Version: Beta 0.5.0 @Date: 20.12.2017
+• Μεγάλη αναθεώρηση της γραφικής διεπαφής χρήστη
+• Προστέθηκε η δυνατότητα να τοποθετήσετε το ποντίκι πάνω από κουμπιά για να δείτε εξηγήσεις
+• Βελτίωση αναγνωσιμότητας αρχείου καταγραφής
+• Το παράθυρο της κονσόλας εμφανίζει πλέον σφάλματα και αρχεία καταγραφής
+
+@Version: Alpha 0.4.1 @Date: 18.12.2017
+• Επιδιόρθωση των αυτόματων βημάτων με χρονοδιακόπτη
+• Ο χρονοδιακόπτης έχει πλέον εύρος δευτερολέπτων από 0.1 έως 5 και αρνείται οποιαδήποτε άλλη είσοδο
+
+@Έκδοση: Alpha 0.4.0 @Date:16.12.2017
+• Προσθήκη κατάλληλων αγγλικών και ελληνικών οδηγιών
+• Προσθήκη Παραθύρου κονσόλας προγραμματιστή
+• Προσθήκη κουμπιού για την άμεση εμφάνιση του αποτελέσματος στην ανάλυση συμβολοσειρών
+
+@Version: Alpha 0.3.1 @Date: 12.12.2017
+• Βελτίωση ταχύτητας των αλγορίθμων
+• Βελτίωση γραφικών του προγράμματος
+• Βελτίωση αναγνωσιμότητας βημάτων για τα σύνολα first
+• Οι καρτέλες Ρυθμίσεις και Πληροφορίες λειτουργούν πλέον σωστά
+
+@Έκδοση: Alpha 0.3.0 @Date:10.12.2017
+• Προσθήκη αρχείου καταγραφής στην καρτέλα Πληροφορίες
+• Η αρχική καρτέλα περιέχει πλέον μια επισκόπηση και οδηγίες χρήσης
+
+@Έκδοση: Alpha 0.2.0 @Date:04.12.2017
+• Προσθήκη καρτελών περιήγησης για ευκολία χρήσης του προγράμματος
+• Προσθήκη προ-εγκατεστημένων γραμματικών
+• Προσθήκη της δυνατότητας εισαγωγής και εξαγωγής γραμματικών
+• Προσθήκη βημάτων για τα σύνολα first και follow
+• Μπορείτε πλέον να βλέπετε τα σύνολα first, follow και τον πίνακα συντακτικής ανάλυσης σε μία καρτέλα
+
+@Έκδοση: Alpha 0.1.0 @Date:28.11.2017
+• Δημιουργία Γραφικού Περιβάλλοντος Χρήστη
+• Πρώτη Έκδοση Προγράμματος
+##########Greek-END##########

@@ -1,0 +1,103 @@
+[instructions=English]
+<title>Instructions
+Welcome to LL(1) Parser-Analyzer. This guide will help you understand how it works.
+The starting point of this program is feeding it with the rules of a LL(1) Grammar.
+Currently it can only support only LL(1) Grammars. You can always check your progress
+by the X or the ticks on the right side of the program.
+<title>Import Rules
+When you first enter the "Import Rules" panel you will notice that on the left side,
+the program waits for some rules (or productions) to be inserted. These productions
+use the following format:
+S -> A|bA|ε<b><center>
+They can contain any Latin letters, both capitals and not, and any known UTF-8 symbols.
+What you are not allowed to use however, are any these symbols:
+<p>
+● The dollar symbol '$' as it is used to represent the End Of File (EOF).<b>
+● The comma symbol ',' as it is used by the algorithms themselves.<b>
+If you need to insert any of these symbols stated above, just replace them with
+some other symbol. Some other common symbols used in the productions of the grammar are:
+● The epsilon symbol 'ε' which represents the empty input.<b>
+● The or symbol '|' which shows two or more producing inputs.<b>
+   For example X->y|z is short-hand for X->y and X->z.<b>
+Also this program reads one symbol at a time, making impossible to
+insert something like E' in a production. For that reason you need to swap it with
+another single Letter. For the productions rules in this program you will have to use Capital letters for the
+left-hand side as the production and small letters or symbols for the productive part.
+<p>
+On the right side of the panel you have the options to add a new rule, to save the rules
+into the program's memory (with the Save Rules button) as well as the option to export
+the rules you wrote to a .txt file, so you can insert them later using the import button.
+This is a very convenient way if you don't want to type the rules every time. Last but not
+least, on the bottom-right there are some "pre-installed" grammars you can use to test
+out an input.
+<title>First Sets, Follow Sets and Parsing Table
+In order to use these buttons, you have to correctly import an LL(1) grammar first.
+After doing so pressing First Sets will calculate and show you the first sets,
+Follow Sets will calculate and show Follow Sets, and lastly clicking the Parsing Table
+will show you how the Parsing Table looks like. You can also click on the right bottom
+side, the button 'Show Steps >>' which will open a dialog explaining the steps each
+algorithms is following in order to produce the above results.
+<title>Analyze String
+In this panel, the first thing you will notice in the upper part is that you can type
+an input to test. Hitting the Analyze button will initialize the stack of the algorithm
+and the input stack. In order for the input to be recognized, the only thing that must be
+left in these two stacks are the EOF symbol (or '$"). The steps of this process are shown
+on the bottom left part of the panel. From this point you have three options on the right 
+part. Firstly you can use the manual button to manually go to the next step. Secondly, you
+can enter a timer (in seconds and range from 0.1s to 5s), and lastly you can see the end
+result, just by pressing the "Result" button.
+[English_END]
+
+[instructions=Greek]
+<title>Οδηγίες
+Καλώς ορίσατε στο συντακτικό αναλυτή LL(1). Αυτός ο οδηγός θα σας βοηθήσει να καταλάβετε
+πως να χρησιμοποιήσετε σωστά αυτό το πρόγραμμα. Ξεκινώντας, θα πρέπει να εισάγετε μια
+γραμματική. Προς το παρόν, αυτό το πρόγραμμα υποστηρίζει γραμματικές τύπου LL(1), και
+μόνο. Μπορείτε να βλέπετε ανα πάσα στιγμή την πρόοδό σας, κοιτάζοντας δεξιά τα βήματα που
+απεικονίζονται με σωστό ή λάθος.
+<title>Εισαγωγή Κανόνων
+Όταν πρωτοανοίξετε το panel "Εισαγωγή Κανόνων", θα παρατηρήσετε στο αριστερό μέρος, ότι το
+πρόγραμμα περιμένει την εισαγωγή κάποιων κανόνων γραμματικής (ή παραγωγές). Αυτές οι παραγωγές
+χρησιμοποιούν την ακόλουθη μορφή:
+S -> A|bA|ε<b><center>
+Μπορούν να περιέχουν μόνο Λατινικούς χαρακτήρες, μικρούς και κεφαλαίους, καθώς και οποιοδήποτε
+σύμβολο που εμπεριέχετε στην κωδικοποίηση UTF-8. Παρ'όλα αυτά δεν επιτρέπετε να χρησιμοποιήσετε
+τα ακόλουθα σύμβολα:
+<p>
+● Το δολλάριο '$' καθώς χρησιμοποιήται για το End Of File (EOF).<b>
+● Το κόμμα ',' καθώς χρησιμοποιήται από τους ίδιους τους αλγόριθμους.<b>
+Αν χρειάζεστε να εισάγετε τους παραπάνω χαρακτήρες, μπορείτε απλά να τους αντικαταστήσετε με
+άλλους. Επίσης κάποια άλλα γνωστά σύμβολα που συχνά χρησιμοποιούντε είναι:
+● Το έψιλον 'ε' που παριστάνει την κενή συμβολοσειρά.<b>
+● Το σύμβολο or '|' οπου παριστάνει δύο η περισσότερες παραγωγές<b>
+   Για παράδειγμα το X->y|z σημαίνει ότι X->y και X->z.<b>
+Επίσης αυτό το πρόγραμμα διαβάζει ένα σύμβολο την φορά, και έτσι είναι αδύνατο να βάλουμε είσοδο
+όπως αυτή: E'. Για αυτό το λόγο θα πρέπει να αντικατασταθέι με ένα και μόνο γράμμα. Χρησιμοποιούμε
+κεφαλαία γράμματα στα αριστερά του κανόνα ως παράγωγο και μικρά γράμματα ή σύμβολα στα δεξιά ώς
+το παραγόμενο μέρος του κανόνα.
+<p>
+Στα δεξιά του panel έχετε την επιλογή να προσθέσετε ένα νέο κανόνα, να αποθηκεύσετε τους κανόνες
+στη μνήμη του προγράμματος (χρησιμοποιόντας το κουμπί Αποθήκευση), καθώς και την επιλογή να
+εξάγετε τους κανόνες που εισάγατε σε ένα αρχείο .txt, έτσι ώστε να μπορέσετε να τους εισάγετε
+αργότερα χρησιμοποιόντας το κουμπί Εισαγωγή. Αυτό καθιστά την χρήση του προγράμματος πιο εύκολη
+καθώς δεν χρειάζετε να πληκτρολογήτε κάθε φορά τους κανόνες από την αρχή. Τελος, στο κάτω δεξί
+μέρος υπάρχουν κάποιες προ-εγκατεστημένες γραμματικές που μπορείτε να χρησιμοποιήσετε.
+<title>Σύνολα First, Σύνολα Follow και Πίνακας Ανάλυσης
+Για να χρησιμοποιήσετε αυτά τα κουμπιά, θα πρέπει πρώτα να γίνει η σωστή εισαγωγή κανόνων
+μιας γραμματικής LL(1). Μόλις γίνει αυτό, πατώντας το κουμπί "Σύνολα First" θα υπολογίσει τα
+σύνολα first, το κουμπί "Σύνολα Follow" τα follow σύνολα και τέλος το κουμπί "Πίνακας Ανάλυσης"
+θα εμφανίσει το πίνακα συντακτικής ανάλυσης. Μπορείτε επίσης να πατήσετε στο κάτω δεξί μέρος
+το κουμπί "Βήματα >>" όπου θα εμφανιστούν τα βήματα που ακολούθησε ο κάθε αλγόριθμος μέχρι να
+εμφανίσει το επιθυμητό αποτέλεσμα.
+<title>Ανάλυση Εισόδου
+Σε αυτό το panel, το πρώτο πράγμα που παρατηρείτε είναι ότι στο πάνω μέρος υπάρχει μία είσοδος.
+Εκεί πέρα εισάγετε το συμβολοσειρά που θέλετε να δοκιμάσετε αν αναγνωρίζεται από τον αναλυτή.
+Πατώντας το κουμπί ανάλυση θα αρχικοποιηθεί η διαδικασία αναγνώρισης, και θα δείτε τις 2 στοίβες.
+Μια για την συμβολοσειρά εισόδου και μια του αναλυτή. Για να αναγνωριστεί η συμβολοσειρά θα πρέπει
+οι δύο στοίβες να περιέχουν μόνο το EOF δηλαδή το δολάριο '$'. Τα βήματα που εκτελεί ο αλγόριθμος
+φαίνοντε στο κάτω αριστερό τμήμα του panel. Αυτό μπορείτε να το επιτύχετε με τρείς τρόπους. Το
+κουμπί 'Next Step' δείχνει το επόμενο βήμα του αλγορίθμου μόνο όταν το πατήσετε χειροκίνητα. Η δεύτερη
+επιλογή σας είναι να εισάγετε κάποιο χρονικό διάστημα (σε δευτερόλεπτα απο 0.1 δευτ. μέχρι 5 δευτ.)
+και όταν πατήσετε εκκίνηση ο αλγόριθμος θα σας δείχνει κάθε βήμα ανά το χρονικό διάστημα που ορίσατε.
+Τέλος υπάρχει η επιλογή να εμφανιστούν όλα τα βήματα κατευθείαν, απλά πατώντας το κουμπί "Αποτέλεσμα".
+[Greek_END]

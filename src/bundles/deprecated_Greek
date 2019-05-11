@@ -1,0 +1,145 @@
+[Application Titles]
+@mainTitle = Συντακτικός Αναλυτής LL(1)
+@stepsTitle = Βήματα
+@instructionsTitle = Οδηγίες
+@changelogTitle = Καταγραφή Εκδόσεων
+@consoleTitle = Κονσόλα Προγραμματιστή
+@version = Έκδοση Προγράμματος:
+@revision = Ημερομηνία Αναθεώρησης:
+
+[Main Menu]
+@btn_home = Αρχική
+@btn_rules = Εισαγωγή Κανόνων
+@btn_firstSets = Σύνολα First
+@btn_followSets = Σύνολα Follow
+@btn_parsingTable = Πίνακας Ανάλυσης
+@btn_analysis = Ανάλυση Εισόδου
+@btn_options = Ρυθμίσεις
+@btn_about = Πληροφορίες
+@btn_exit = Έξοδος
+
+[Info Panel]
+@lb_ruleSetInfo = Κανόνες
+@lb_firstSetsInfo = Σύνολα First
+@lb_followSetsInfo = Σύνολα Follow
+@lb_parsingTableInfo = Πίνακας Ανάλυσης
+@lb_stringAnalyzeInfo = Ανάλυση Εισόδου
+@txt_stringNotReadyInfo = Δεν Είναι Έτοιμο
+@txt_stringReadyInfo = Έτοιμο
+@btn_showStepsInfo = Εμφάνιση Βημάτων >>
+@tt_showSteps = Εμφάνιση λεπτομερών βημάτων του αλγορίθμου
+
+[Home Panel]
+@lb_overview = Επισκόπηση
+@lb_welcome = Αυτός ο LL(1) μεταγλωττιστής είναι ένας από πάνω προς τα κάτω αναλυτής ο οποίος αναλύει την είσοδο από αριστερά προς τα δεξιά, εκτελώντας αριστερή παραγωγή. Μερικά από τα χαρακτηριστικά του περιλαμβάνουν:
+@lb_grammarInfoPanel = Εισαγωγή των δικών σας κανόνων γραμματικής
+@lb_calculateInfoPanel = Αλγορίθμοι για τα σύνολα first και follow
+@lb_analysisInfoPanel = Δείτε αν μία συμβολοσειρά αναγνωρίζεται
+@lb_gettingStarted = Αρχίζοντας
+@lb_parserInfo = Αν δεν έχετε προηγούμενη εμπειρία με το συγκεκριμένο πρόγραμμα, σας προτείνουμε να διαβάσετε προσεκτικά τις οδηγίες.
+@btn_gettingStarted = Άνοιγμα Οδηγιών
+@tt_gettingStarted = Άνοιγμα του παραθύρου οδηγιών. Εκεί μπορείτε να βρείτε πληροφορίες για το πως να χρησιμοποιήσετε αυτό το πρόγραμμα
+
+[Rules Panel]
+@lb_ruleCount = Κανόνας #
+@tt_delete = Διαγραφή αυτού του κανόνα
+@btn_addRule = Προσθήκη
+@tt_addRule = Προσθήκη καινούριου κανόνα γραμματικής
+@btn_saveRules = Αποθήκευση
+@tt_saveRules = Αποθηκεύστε και χρησιμοποιήστε αυτούς τους κανόνες γραμματικής
+@btn_importRules = Εισαγωγή
+@tt_importRules = Κάντε εισαγωγή δικών σας κανόνων από τον υπολογιστή σας
+@fileChooser = Επιλογή Αρχείου Γραμματικής
+@extensionFilter = Αρχεία Κειμένου
+@btn_exportRules = Εξαγωγή
+@tt_exportRules = Αποθήκευση κανόνων σε ένα .txt έγγραφο για να το χρησιμοποιήσετε αργότερα
+@lb_preLoadedGrammars = Προ-Εγκατεστημένες Γραμματικές
+@btn_selectRuleSet = Επιλογή Γραμματικής
+@tt_selectRuleSet = Χρησιμοποιήστε την επιλεγμένη από την λίστα γραμματική
+
+[First Follow Table]
+@lb_firstSetsNC = Τα Σύνολα First δεν έχουν βρεθεί
+@lb_followSetsNC = Τα Σύνολα Follow δεν έχουν βρεθεί
+@lb_parsingTableNC = Ο Πίνακας Συντακτικής Ανάλυσης δεν έχει δημιουργηθεί
+
+[String Analysis]
+@lb_stringInput = Εισαγωγή Συμβολοσειράς:
+@btn_stringInput = Ανάλυση
+@tt_stringInputTooltip = Ξεκινήστε τη διαδικασία ανάλυσης της συμβολοσειράς
+@lb_stringAnalysisInfo = Ανάλυση Συμβολοσειράς
+@lb_stack = Στοίβα
+@lb_input = Συμβολοσειρά
+@lb_emptyStack = Κενή Στοίβα
+@lb_emptyInput = Κενή Συμβολοσειρά
+@lb_temporaryInfo = Παρακαλώ εισάγετε συμβολοσειρά για ανάλυση
+@lb_stepByStep = Ανα Βήμα
+@btn_manualSteps = Επόμενο Βήμα
+@tt_manualSteps = Πηγαίντε στο επόμενο βήμα
+@lb_autoSteps = Χρόνος Βήματος
+@lb_autoStepsSecs = δευτ.
+@btn_autoSteps = Εκκίνηση
+@tt_autoSteps = Εκκίνηση αυτόματης λειτουργίας χρησιμοποιόντας τον χρόνο που εισάγατε
+@lb_showResult = Τελικό Αποτέλεσμα
+@btn_resultSteps = Εμφάνιση
+@tt_resultSteps = Δείτε κατευθείαν όλα τα βήματα και το αποτέλεσμα
+
+[Options Panel]
+@lb_console = Παράθυρο Κονσόλας
+@tt_consoleCB = Άνοιγμα του παραθύρου κονσόλας για να ελέγξετε την ταχύτητα των αλγορίθμων και τα σφάλματα 
+@lb_language = Γλώσσα
+@btn_saveLanguage = Αποθήκευση
+@tt_saveLanguage = Αποθήκευση προτίμησης γλώσσας. Απαιτεί επανεκκίνηση
+
+[Console Window]
+@lb_algorithmTimes = Χρόνοι Εκτέλεσης Αλγορίθμων
+@lb_firstSetsTime = Χρόνος Εύρεσης Συνόλων First:
+@lb_followSetsTime = Χρόνος Εύρεσης Συνόλων Follow:
+@lb_parsingTableTime = Χρόνος Δημιουργίας Πίνακα Ανάλυσης:
+@lb_totalTime = Συνολικός Χρόνος Αλγορίθμων:
+@lb_logPanel = Καταγραφή Συμβάντων
+@lb_type = Τύπος
+@lb_value = Επεξήγηση
+@lb_bootFound = Δεν βρέθηκε αρχείο γλώσσας για εκκίνηση.
+@tp_info = Πληροφορία
+@tp_alert = Ειδοποίηση
+@tp_error = Σφάλμα
+
+[About Panel]
+@lb_about = Σχετικά
+@lb_aboutThisProgram = Αυτό το πρόγραμμα δημιουργήθηκε στα πλαίσια του μαθήματος Αρχές Γλωσσών και μεταφραστών. Περιέχει κώδικα γραμμένο με την τεχνολογία Java, και το γραφικό UI δημιουργήθηκε με την βιβλιοθήκη της JavaFx. Απευθύνεται σε φοιτητές υπολογιστών και αυτοδίδακτους που μελετούν μεταγλωττιστές ή αναλυτές.
+@btn_changelog = Καταγραφή Εκδόσεων
+@lb_contributors = Συνεισφέροντες
+@lb_contributor1Name = Σωτήριος Τζαμάρας
+@lb_contributorEthnic = Εθνικότητα: Ελλάδα
+@lb_contributorWork = Συνεισφορά
+@lb_contributor1Work01 = Αλγόριθμος Συνόλων First
+@lb_contributor1Work02 = Αλγόριθμος Πίνακα Ανάλυσης
+@lb_contributor1Work03 = Αλγόριθμος Αναγνώρισης Συμβολοσειράς
+@lb_contributor1Work04 = Γραφικό Περιβάλλον Χρήστη
+@lb_contributor2Name = Βασίλειος Αγγέλης
+@lb_contributor2Work01 = Αλγόριθμος Συνόλων Follow
+@lb_contributor2Work02 = Δοκιμές σταθερότητας και απόδοσης
+
+[Copyright]
+@lb_copyright = © Πνευματική ιδιοκτησία 2019 Διατήρηση Δικαιωμάτων
+
+[Alerts]
+@ttl_information = Πληροφορίες
+@txt_correctRules = Οι κανόνες αποθηκεύτηκαν με επιτυχία!
+@ttl_warning = Προειδοποίηση
+@txt_emptyRules = Οι κανόνες δεν μπορούν να είναι κενοί!
+@txt_commaRules = Οι κανόνες δεν πρέπει να περιέχουν το σύμβολο κόμμα!
+@txt_dollarRules = Οι κανόνες δεν πρέπει να περιέχουν το σύμβολο δολλάριο!
+@txt_spaceRules = Οι κανόνες δεν πρέπει να περιέχουν κενά μεταξύ τους!
+@txt_symbolNotRec = Αυτό το σύμβολο δεν αναγνωρίστηκε: '
+@txt_numberError = Στον χρόνο μπορείτε να βάλετε μόνο νούμερα!
+@txt_rangeError = Το εύρος μπορεί να είναι από 0.1 έως 5!
+@ttl_restart = Απαιτείται επανεκκίνηση
+@txt_restartText = Κάντε επανεκκίνηση της εφαρμογής για να εφαρμοστούν οι αλλαγές.
+
+[Information Label]
+@txt_wrongRules = Λανθασμένοι Κανόνες Γραμματικής!
+@txt_firstSetsSuccess = Τα σύνολα First βρέθηκαν με επιτυχία!
+@txt_followSetsSuccess = Τα σύνολα Follow βρέθηκαν με επιτυχία!
+@txt_parsingTableSuccess = Ο πίνακας ανάλυσης δημιουργήθηκε με επιτυχία!
+@txt_notLL1 = Πιθανώς αυτή η γραμματική να μην είναι τύπου LL(1)!

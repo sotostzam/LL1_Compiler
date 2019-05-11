@@ -1,0 +1,145 @@
+[Application Titles]
+@mainTitle = LL(1) Grammar Analyzer
+@stepsTitle = Steps Process
+@instructionsTitle = Instructions
+@changelogTitle = Changelog
+@consoleTitle = Console
+@version = Program Version:
+@revision = Revision Date:
+
+[Main Menu]
+@btn_home = Home
+@btn_rules = Import Rules
+@btn_firstSets = First Sets
+@btn_followSets = Follow Sets
+@btn_parsingTable = Parsing Table
+@btn_analysis = String Analyze
+@btn_options = Options
+@btn_about = About
+@btn_exit = Exit
+
+[Info Panel]
+@lb_ruleSetInfo = Rule Set
+@lb_firstSetsInfo = First Sets
+@lb_followSetsInfo = Follow Sets
+@lb_parsingTableInfo = Parsing Table
+@lb_stringAnalyzeInfo = String Analysis
+@txt_stringNotReadyInfo = Not Ready
+@txt_stringReadyInfo = Ready
+@btn_showStepsInfo = Show Steps >>
+@tt_showSteps = Show detailed steps about the algorithm
+
+[Home Panel]
+@lb_overview = Overview
+@lb_welcome = An LL parser is a top-down parser which parses the input from Left to right, performing Leftmost derivation of the sentence. Some of the features include:
+@lb_grammarInfoPanel = Insert your own grammar rules
+@lb_calculateInfoPanel = Use our algorithms for first and follow sets
+@lb_analysisInfoPanel = Check if an input is recognized by the compiler
+@lb_gettingStarted = Getting Started
+@lb_parserInfo = If you do not have experience working with the current program, we strongly advise you to go ahead and read the instructions.
+@btn_gettingStarted = Read Instructions
+@tt_gettingStarted = Open the Instruction window. There can find details about using this application
+
+[Rules Panel]
+@lb_ruleCount = Rule #
+@tt_delete = Delete this value
+@btn_addRule = Add new rule
+@tt_addRule = Add a new grammar rule
+@btn_saveRules = Save rules
+@tt_saveRules = Save and use these grammar rules
+@btn_importRules = Import rules
+@tt_importRules = Import a custom set of grammar rules from your computer
+@fileChooser = Select Grammar File
+@extensionFilter = Text Files
+@btn_exportRules = Export rules
+@tt_exportRules = Save current rules to a .txt file so you can use them later
+@lb_preLoadedGrammars = Pre-Loaded Grammars
+@btn_selectRuleSet = Select Set
+@tt_selectRuleSet = Use selected rule set
+
+[First Follow Table]
+@lb_firstSetsNC = First Sets Not Calculated
+@lb_followSetsNC = Follow Sets Not Calculated
+@lb_parsingTableNC = Parsing Table Not Constructed
+
+[String Analysis]
+@lb_stringInput = Type String to analyze:
+@btn_stringInput = Analyze
+@tt_stringInput = Start the input analysis procedure
+@lb_stringAnalysisInfo = String Analysis
+@lb_stack = Stack
+@lb_input = Input
+@lb_emptyStack = Stack is Empty
+@lb_emptyInput = Input is Empty
+@lb_temporaryInfo = Please insert input to analyze
+@lb_stepByStep = Step by Step
+@btn_manualSteps = Next Step
+@tt_manualSteps = Advance one step
+@lb_autoSteps = Steps Timer
+@lb_autoStepsSecs = sec
+@btn_autoSteps = Start
+@tt_autoSteps = Start automatic stepping using the timer specified
+@lb_showResult = Show End Result
+@btn_resultSteps = Show Result
+@tt_resultSteps = Show the whole step process and the result at once
+
+[Options Panel]
+@lb_console = Console Window
+@tt_consoleCB = Open Console Window to inspect the speed of the algorithms and check for errors 
+@lb_language = Language
+@btn_saveLanguage = Save
+@tt_saveLanguage = Save preferred language. Requires restart
+
+[Console Window]
+@lb_algorithmTimes = Algorithms Run Times
+@lb_firstSetsTime = First Sets Construction Time: 
+@lb_followSetsTime = Follow Sets Construction Time: 
+@lb_parsingTableTime = Parsing Table Construction Time: 
+@lb_totalTime = Total Algorithms Time: 
+@lb_logPanel = Event Log
+@lb_type = Type
+@lb_value = Explanation
+@lb_bootFound = No language file found to boot.
+@tp_info = Info
+@tp_alert = Alert
+@tp_error = Error
+
+[About Panel]
+@lb_about = About
+@lb_aboutThisProgram = This application was created within the framework of the Principles of Languages ​​and Translators. It consists of code written in Java technologies and the GUI is making use of the JavaFX APIs. It is intended for computer science students and autodidacts studying compilers or parsing.
+@btn_changelog = Changelog
+@lb_contributors = Contributors
+@lb_contributor1Name = Sotirios Tzamaras
+@lb_contributorEthnic = Nationality: Greece
+@lb_contributorWork = Contribution
+@lb_contributor1Work01 = First Sets Algorithm
+@lb_contributor1Work02 = Parsing Table Algorithm
+@lb_contributor1Work03 = String Analysis Algorithm
+@lb_contributor1Work04 = Graphical User Interface
+@lb_contributor2Name = Vasileios Angelis
+@lb_contributor2Work01 = Follow Sets Algorithm
+@lb_contributor2Work02 = Performance and stability tests
+
+[Copyright]
+@lb_copyright = © Copyright 2019 All Rights Reserved
+
+[Alerts]
+@ttl_information = Information
+@txt_correctRules = Rules saved successfully!
+@ttl_warning = Warning
+@txt_emptyRules = Rules can not be empty!
+@txt_commaRules = Rules can not contain the comma symbol!
+@txt_dollarRules = Rules can not contain the dollar symbol!
+@txt_spaceRules = Rules can not contain spaces!
+@txt_symbolNotRec = This symbol is not recognized: '
+@txt_numberError = Timer can only contain numbers!
+@txt_rangeError = Range can only be from 0.1 to 5!
+@ttl_restart = Restart Required
+@txt_restartText = Please restart application for changes to take effect.
+
+[Information Label]
+@txt_wrongRules = Wrong Grammar Rules!
+@txt_firstSetsSuccess = First Sets created successfully!
+@txt_followSetsSuccess = Follow Sets created successfully!
+@txt_parsingTableSuccess = Parsing Table constructed successfully!
+@txt_notLL1 = This grammar is probably not of type LL(1)!
