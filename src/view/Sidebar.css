@@ -1,0 +1,61 @@
+.label {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+    -fx-text-alignment: center;
+}
+
+.button {
+	-fx-padding: 8 5 8 55;
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-background-size: 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 4%;
+}
+
+.button:focused {
+	-fx-background-color: #008cff;
+}
+
+.button:pressed {
+    -fx-background-color: grey;
+}
+
+.button:hover {
+    -fx-padding: 8 5 8 60;
+    -fx-background-color: grey;
+}
+
+#btnHome {
+	-fx-background-image: url("/images/homepage.png");
+}
+#btnImportRules {
+	-fx-background-image: url("/images/grammarIcon.png");
+}
+#btnFirstSets {
+	-fx-background-image: url("/images/algorithmIcon.png");
+}
+#btnFollowSets {
+	-fx-background-image: url("/images/algorithmIcon.png");
+}
+#btnParsingTable {
+	-fx-background-image: url("/images/tableIcon.png");
+}
+#btnStringAnalysis {
+	-fx-background-image: url("/images/analysisIcon.png");
+}
+#btnOptions {
+	-fx-background-image: url("/images/options.png");
+}
+#btnAbout {
+	-fx-background-image: url("/images/about.png");
+}
+#btnExit {
+	-fx-background-image: url("/images/exit.png");
+}

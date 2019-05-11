@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.*?>
+
+<VBox fx:id="syntaxPane" stylesheets="view/SyntaxAnalysis.css" xmlns:fx="http://javafx.com/fxml/1">
+
+	<!-- TOP REGION -->
+	<HBox HBox.hgrow="ALWAYS" maxWidth="Infinity" prefHeight="100.0" alignment="CENTER">
+		<Label fx:id="lb_SyntaxTitle" text="%lb_SyntaxTitle" style="-fx-padding: 0 0 0 10;"/>
+	</HBox>
+	
+	<!-- MAIN REGION -->
+	<VBox style="-fx-padding: 10 0 10 0;" VBox.vgrow="ALWAYS" maxHeight="Infinity">
+		<VBox style="-fx-padding: 10 30 20 30; -fx-background-color: rgba(90, 90, 90, 0.1);">
+			<Label fx:id="lb_SyntaxInfoTitle" text="%lb_SyntaxInfoTitle"/>
+			<Label fx:id="lb_SyntaxInfo" text="%lb_SyntaxInfo" wrapText="true"/>
+		</VBox>
+		<VBox>
+			<Label fx:id="lb_SyntaxOptions" text="%lb_SyntaxOptions" style="-fx-padding: 10 30 20 30;"/>
+		</VBox>
+	</VBox>
+</VBox>

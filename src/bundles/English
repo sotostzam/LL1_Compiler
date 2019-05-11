@@ -1,0 +1,52 @@
+[Application Titles]
+mainTitle = LL(1) Compiler
+
+[Sidebar]
+btn_home = Home
+btn_rules = Import Rules
+btn_syntaxAnalysis = Syntax Analysis
+btn_intCode = Intermediate Code
+btn_firstSets = First Sets
+btn_followSets = Follow Sets
+btn_parsingTable = Parsing Table
+btn_analysis = String Analysis
+btn_options = Options
+btn_about = About
+btn_exit = Exit
+
+[Info Panel]
+
+[Home Panel]
+lb_overview = Overview
+lb_welcome = An LL parser is a top-down parser which parses the input from left to right, performing Leftmost derivation of the sentence. Some of the features include:
+lb_grammarInfoPanel = Insertion and conversion of grammar rules
+lb_calculateInfoPanel = Algorithms to generate first and follow sets
+lb_analysisInfoPanel = Check if an input is recognized by the compiler
+lb_gettingStarted = Getting Started
+lb_parserInfo = If you do not have experience working with the current program, we strongly advise you to go ahead and read the instructions.
+btn_gettingStarted = Read Instructions
+tt_gettingStarted = Open the Instruction window. There you can find details about using this application
+
+[Rules Panel]
+
+[Syntax Analysis]
+lb_SyntaxTitle = Syntax Analysis
+lb_SyntaxInfoTitle = What is syntax analysis?
+lb_SyntaxInfo = Syntax Analysis or Parsing is the second phase of a compiler. It checks the syntactical structure of the given input, i.e. whether the given input is in the correct syntax (of the language in which the input has been written) or not. It does so by building a data structure, called a Parse tree or Syntax tree. The parse tree is constructed by using the pre-defined Grammar of the language and the input string.
+lb_SyntaxOptions = Options
+
+[First Follow Table]
+
+[String Analysis]
+
+[Options Panel]
+
+[Console Window]
+
+[About Panel]
+
+[Copyright]
+
+[Alerts]
+
+[Information Label]

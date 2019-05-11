@@ -1,0 +1,44 @@
+[Application Titles]
+mainTitle = Συντακτικός Αναλυτής LL(1)
+
+[Main Menu]
+btn_home = Αρχική
+btn_rules = Εισαγωγή Κανόνων
+btn_firstSets = Σύνολα First
+btn_followSets = Σύνολα Follow
+btn_parsingTable = Πίνακας Ανάλυσης
+btn_analysis = Ανάλυση Εισόδου
+btn_options = Ρυθμίσεις
+btn_about = Πληροφορίες
+btn_exit = Έξοδος
+
+[Info Panel]
+
+[Home Panel]
+lb_overview = Επισκόπηση
+lb_welcome = Αυτός ο LL(1) μεταγλωττιστής είναι ένας από πάνω προς τα κάτω αναλυτής ο οποίος αναλύει την είσοδο από αριστερά προς τα δεξιά, εκτελώντας αριστερή παραγωγή. Μερικά από τα χαρακτηριστικά του περιλαμβάνουν:
+lb_grammarInfoPanel = Εισαγωγή των δικών σας κανόνων γραμματικής
+lb_calculateInfoPanel = Αλγορίθμοι για τα σύνολα first και follow
+lb_analysisInfoPanel = Δείτε αν μία συμβολοσειρά αναγνωρίζεται
+lb_gettingStarted = Αρχίζοντας
+lb_parserInfo = Αν δεν έχετε προηγούμενη εμπειρία με το συγκεκριμένο πρόγραμμα, σας προτείνουμε να διαβάσετε προσεκτικά τις οδηγίες.
+btn_gettingStarted = Άνοιγμα Οδηγιών
+tt_gettingStarted = Άνοιγμα του παραθύρου οδηγιών. Εκεί μπορείτε να βρείτε πληροφορίες για το πως να χρησιμοποιήσετε αυτό το πρόγραμμα
+
+[Rules Panel]
+
+[First Follow Table]
+
+[String Analysis]
+
+[Options Panel]
+
+[Console Window]
+
+[About Panel]
+
+[Copyright]
+
+[Alerts]
+
+[Information Label]

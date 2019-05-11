@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox fx:id="homeVBox" stylesheets="view/Homepage.css" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+
+	<!-- TOP REGION -->
+	<HBox HBox.hgrow="ALWAYS" maxWidth="Infinity" prefHeight="${homeVBox.height*0.25}" alignment="CENTER" style="-fx-padding: 10 0 10 0;">
+		<ImageView fitHeight="120.0" pickOnBounds="true" preserveRatio="true" >    
+   			<image>
+   				<Image url="/images/LL1_Logo.png" />
+   			</image>
+		</ImageView>
+		<Label fx:id="lbCompiler" text="%mainTitle" style="-fx-padding: 0 0 0 10;"/>
+	</HBox>
+	
+	<!-- CENTER REGION -->
+	<HBox fx:id="homeCenterRegion" prefHeight="${homeVBox.height*0.4}" style="-fx-padding: 0 30 0 30; -fx-background-color: rgba(90, 90, 90, 0.1);">
+		<VBox fx:id="vboxOverviewLeft" prefWidth="${homeCenterRegion.width*0.5}" style="-fx-padding: 10 20 0 0;">
+			<Label fx:id="lbTitle" text="%lb_overview" stylesheets="view/Homepage.css"/>
+			<Label text="%lb_welcome" wrapText="true" stylesheets="view/Homepage.css"/>
+		</VBox>
+		<VBox fx:id="vboxOverviewRight" prefWidth="${homeCenterRegion.width*0.5}" alignment="CENTER" style="-fx-padding: 10 0 10 20;">
+			<HBox fx:id="overviewSection" prefHeight="${vboxOverviewRight.height*0.33}" alignment="CENTER_LEFT">
+				<ImageView fitHeight="70.0" pickOnBounds="true" preserveRatio="true">    
+   					<image>
+   						<Image url="/images/grammarIcon.png" />
+   					</image>
+				</ImageView>
+				<Label text="%lb_grammarInfoPanel" VBox.vgrow="ALWAYS" maxHeight="Infinity" alignment="CENTER" wrapText="true" style="-fx-padding: 0 0 0 20;" stylesheets="view/Homepage.css"/>
+			</HBox>
+			<HBox fx:id="overviewSection" prefHeight="${vboxOverviewRight.height*0.33}" alignment="CENTER_LEFT">
+				<ImageView fitHeight="70.0" pickOnBounds="true" preserveRatio="true">    
+   					<image>
+   						<Image url="/images/algorithms.png" />
+   					</image>
+				</ImageView>
+				<Label text="%lb_calculateInfoPanel"  VBox.vgrow="ALWAYS" maxHeight="Infinity" alignment="CENTER" wrapText="true" style="-fx-padding: 0 0 0 20;" stylesheets="view/Homepage.css"/>
+			</HBox>
+			<HBox fx:id="overviewSection" prefHeight="${vboxOverviewRight.height*0.33}" alignment="CENTER_LEFT">
+				<ImageView fitHeight="70.0" pickOnBounds="true" preserveRatio="true">    
+   					<image>
+   						<Image url="/images/analysisIcon.png" />
+   					</image>
+				</ImageView>
+				<Label text="%lb_analysisInfoPanel" VBox.vgrow="ALWAYS" maxHeight="Infinity" alignment="CENTER" wrapText="true" style="-fx-padding: 0 0 0 20;" stylesheets="view/Homepage.css"/>
+			</HBox>
+		</VBox>
+	</HBox>
+	
+	<!-- BOTTOM REGION -->
+	<VBox style="-fx-padding: 10 30 0 30;" VBox.vgrow="ALWAYS" maxHeight="Infinity" prefHeight="${homeVBox.height*0.35}" alignment="TOP_LEFT">
+		<Label fx:id="lbTitle" text="%lb_gettingStarted" stylesheets="view/Homepage.css"/>
+		<Label text="%lb_parserInfo" wrapText="true" stylesheets="view/Homepage.css"/>
+		<VBox style="-fx-padding: 20 30 0 30;" alignment="CENTER_RIGHT" >
+			<Button fx:id="btnGettingStarted" text="%btn_gettingStarted" stylesheets="view/Homepage.css">
+			    <tooltip>
+            		<Tooltip text="%tt_gettingStarted"/>
+        		</tooltip>
+			</Button>
+		</VBox>	
+	</VBox>	
+</VBox>
+

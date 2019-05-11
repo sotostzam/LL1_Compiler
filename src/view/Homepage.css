@@ -1,0 +1,40 @@
+.label {
+	-fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+}
+#lbCompiler {
+	-fx-font-size: 40px;
+    -fx-font-family: "Segoe UI Semibold";
+}
+#lbTitle {
+	-fx-font-size: 30px;
+	-fx-font-style: italic;
+	-fx-underline: true;
+	-fx-padding: 0 0 10 0;
+}
+#homeVBox {
+	-fx-background-image: url("/images/homeBackground.png");
+	-fx-background-repeat: stretch;
+	-fx-background-size: cover;
+	-fx-background-position: center center;
+}
+#overviewSection {
+	-fx-padding: 10 0 10 0;
+}
+.button {
+	-fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 3;
+    -fx-background-color: #008cff;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+}
+.button:pressed {
+    -fx-background-color: grey;
+}
+.button:hover {
+    -fx-background-color: grey;
+}
