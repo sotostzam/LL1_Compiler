@@ -39,10 +39,10 @@ This is a LL(1) Parser which includes an integrated graphical user interface. Be
 ### Installing
 
 1. Fork this repository on your Github account
-2. Clone *your forked repository* to your hard drive with `git clone https://github.com/YOURUSERNAME/LL1_Compiler.git`
-3. Change location to that folder
-4. Open your favorite IDE/Editor create a new javafx project
-5. Manually import your forked repository's files
+2. Open your favorite IDE/Editor create a new javafx project
+3. Change location to that folder with git bash
+4. Clone *your forked repository* to that folder using `git clone https://github.com/YOURUSERNAME/LL1_Compiler.git`
+5. A refresh may be required from your IDE/Editor
 6. Build and run the application
 
 ### Deployment
@@ -79,7 +79,7 @@ As an open source software, we would be grateful if you wish to contribute bugfi
 
 A special thanks to all of our contributors and testers so far:
 
-* [Angelis Vasilios](http://github.com/ang) (Follow algorithm and Unit testing)
+* [Vasileios Angelis](https://github.com/dragateor) (Follow algorithm and Unit testing)
 
 ## Acknowledgments
 
